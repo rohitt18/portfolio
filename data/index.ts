@@ -1,8 +1,7 @@
 export const navItems = [
-  // { name: "", link: "/" },
+  { name: "Home", link: "/" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  // { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -73,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://drive.google.com/drive/folders/1h3wyWwhFJB1z4PQopQQU3XA_dVErkpOY",
+    title: "Movie Sentiment Analysis using LSTM model",
+    des: "Developed a robust Movie Sentiment Analysis system using LSTM models to predict audience sentiment from reviews.",
+    img: "/movie-sentiment-analysis-lstm.jpg",
+    iconLists: [],
+    link: "https://colab.research.google.com/drive/13ttqzXh1aNpp9O_77f6AuXwcP_AWNGrx",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://www.google.com",
+    title: "Invoice Automation System",
+    des: "Developed an Invoice Automation using Python,streamlining invoice generation and management for improved efficiency",
+    img: "/invoice-automation2.png",
+    iconLists: [],
+    link: "https://github.com/rohitt18/Invoice-Automation-in-python",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Path-finding Visualizer",
+    des: "Demonstrated strategic route planning through a sophisticated pathfinding visualizer in python",
+    img: "/pathfinding-visualizer1.png",
+    iconLists: [],
+    link: "https://github.com/rohitt18/pathfinding-visualizer/blob/main/astar.py",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Flight-Fare Prediction",
+    des: "Enhanced travel planning accuracy with a flight fare prediction model using Random Forest",
+    img: "/flight-fare-prediction.jpg",
+    iconLists: [],
+    link: "https://colab.research.google.com/drive/1JtGshiIs8phrOD7zsrpxN05xO-JBCKKr#scrollTo=duacQMllNqSn",
   },
 ];
 
@@ -206,13 +205,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/rohitt18",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "",
   },
 ];
